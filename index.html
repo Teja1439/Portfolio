@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Aishetti Sai Teja</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Dancing+Script:wght@700&family=Baloo+Bhaina+2:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav>
+    <a href="#" class="logo">
+      <span class="logo-name">AISHETTI SAI TEJA</span>
+    </a>
+    <div class="menu-container">
+      <button class="menu-button" id="menuButton" aria-label="Open navigation menu" title="Open navigation menu">
+        <div class="bar"></div>
+        <div class="bar"></div>
+        <div class="bar"></div>
+      </button>
+      <ul class="menu-items" id="menuItems">
+        <li class="menu-item"><a href="#home">Home</a></li>
+        <li class="menu-item"><a href="#about">About</a></li>
+        <li class="menu-item"><a href="#skills">Skills</a></li>
+        <li class="menu-item"><a href="#projects">Projects</a></li>
+        <li class="menu-item"><a href="#certifications">Certifications</a></li>
+        <li class="menu-item"><a href="#internships">Internships</a></li>
+        <li class="menu-item"><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+<header id="home" class="hero">
+  <div class="container">
+    <div class="intro-text">
+      <h1>
+        <span class="title">Full Stack Developer</span>
+      </h1>
+      <h2>Crafting Smart & Seamless Web Experiences</h2>
+      <p>I build fast, responsive, and user-friendly web applications with modern technologies.</p>
+      <div class="cta-buttons">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-outline">Contact Me</a>
+        <a href="./Assets/images/resume/Aishetti_SaiTeja_Resume.pdf" download class="btn btn-resume">
+          Download Resume
+        </a>
+      </div>
+    </div>
+  </div>
+</header>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2>About Me</h2>
+      <div class="about-container">
+        <div class="about-photo-container">
+          <img src="./Assets/images/profilepic/PP.jpg" alt="A Sai Teja" class="about-photo">
+        </div>
+        <div class="about-bio">
+        <div class="about-details">
+  <p><strong>Name:</strong> Aishetti Sai Teja</p>
+  <p><strong>Training:</strong> Java Full Stack Training at Edubridge Pvt.Ltd</p>
+  <p><strong>Internship:</strong> Fratello – Gained industry exposure and improved problem-solving skills</p>
+  <p><strong>Education:</strong> Master of Computer Applications </p>
+  <p><strong>Goal:</strong> To grow as a versatile developer and contribute to impactful solutions in the tech industry</p>
+</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2>My Skills</h2>
+      
+      <h3 class="skill-category">Technical Skills</h3>
+      <div class="skills-grid">
+        <div class="skill-card" style="--i:0">
+          <i class="fab fa-html5"></i>
+          <span>HTML5</span>
+        </div>
+        <div class="skill-card" style="--i:1">
+          <i class="fab fa-css3-alt"></i>
+          <span>CSS3</span>
+        </div>
+        <div class="skill-card" style="--i:2">
+          <i class="fab fa-js"></i>
+          <span>JavaScript</span>
+        </div>
+        <div class="skill-card" style="--i:3">
+          <i class="fab fa-react"></i>
+          <span>React</span>
+        </div>
+        <div class="skill-card" style="--i:4">
+          <i class="fab fa-python"></i>
+          <span>Python</span>
+        </div>
+        <div class="skill-card" style="--i:5">
+          <i class="fas fa-database"></i>
+          <span>SQL</span>
+        </div>
+        <div class="skill-card" style="--i:6">
+          <i class="fab fa-java"></i>
+          <span>Java</span>
+        </div>
+      </div>
+
+      <h3 class="skill-category">Soft Skills</h3>
+      <div class="skills-grid">
+        <div class="skill-card soft" style="--i:0">
+          <i class="fas fa-comments"></i>
+          <span>Communication</span>
+        </div>
+        <div class="skill-card soft" style="--i:1">
+          <i class="fas fa-users"></i>
+          <span>Teamwork</span>
+        </div>
+        <div class="skill-card soft" style="--i:2">
+          <i class="fas fa-lightbulb"></i>
+          <span>Problem Solving</span>
+        </div>
+        <div class="skill-card soft" style="--i:3">
+          <i class="fas fa-tasks"></i>
+          <span>Time Management</span>
+        </div>
+        <div class="skill-card soft" style="--i:4">
+          <i class="fas fa-handshake"></i>
+          <span>Leadership</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <div class="section-header">
+        <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+        <img src="./Assets/images/icons/wheel.png" alt="Projects Icon" class="section-icon">
+      </div>
+
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <article class="project-card">
+          <div class="card-media">
+            <img src="./Assets/images/projects/polimeras pic.png" alt="E-Commerce Application" class="card-image">
+            <div class="card-overlay">
+              <div class="project-type">E - Commerce</div>
+            </div>
+          </div>
+          <div class="card-main-content">
+            <div class="card-body">
+              <h3 class="project-title">E - Commerce</h3>
+              <p class="project-description">
+              Mana Polimeras – A B2C e-commerce platform for delivering fresh fruits and vegetables directly to customers.
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="know-more-btn">Know More <i class="fas fa-chevron-down"></i></button>
+              <div class="action-buttons">
+                <a href="https://github.com/Teja1439/Polimeras-Grocery" class="github-link" target="_blank">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="./Assets/images/vedios/polimeras.mp4" class="demo-link" data-video="./Assets/images/vedios/polimeras.mp4">
+                  <i class="fas fa-play"></i> Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Hidden details panel -->
+          <div class="card-details">
+            <div class="project-details">
+              <div class="technologies">
+                <h4 class="tech">Technologies</h4>
+                <ul class="tech-list">
+                  <li>Spring</li>
+                  <li>HTML, CSS, JavaScript</li>
+                  <li>MySQL</li>
+                  <li>Apache Tomcat</li>
+                  <li>MVC (Model–View–Controller)</li>
+                </ul>
+              </div>
+              <div class="features">
+                <h4>Key Features</h4>
+                <ul class="feature-list">
+                  <li>User registration/login with role-based access</li>
+                  <li>Product catalog, shopping cart & checkout</li>
+                  <li>Order and admin management dashboard</li>
+                  <li>Responsive, secure, and user-friendly interface</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 2 -->
+        <article class="project-card">
+          <div class="card-media">
+            <img src="./Assets/images/projects/ATM.png" alt="ATM Simulation" class="card-image">
+            <div class="card-overlay">
+              <div class="project-type">Banking Application</div>
+            </div>
+          </div>
+          <div class="card-main-content">
+            <div class="card-body">
+              <h3 class="project-title">Console Based ATM Interface</h3>
+              <p class="project-description">
+                ATM Interface Simulation – A Java-based application that simulates banking operations like balance inquiry, withdrawal, deposit, and PIN management with user authentication.
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="know-more-btn">Know More <i class="fas fa-chevron-down"></i></button>
+              <div class="action-buttons">
+                <a href="https://github.com/Teja1439/ATM-Interface" class="github-link" target="_blank" rel="noopener">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="./Assets/images/vedios/ATM.mp4" class="demo-link" data-video="./Assets/images/vedios/ATM.mp4">
+                  <i class="fas fa-play"></i> Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Hidden details panel -->
+          <div class="card-details">
+            <div class="project-details">
+              <div class="technologies">
+                <h4 class="tech">Technologies</h4>
+                <ul class="tech-list">
+                  <li>Java (Core Java, OOPs concepts)</li>
+                  <li>MySQL Database</li>
+                  <li>JDBC for database connectivity</li>
+                </ul>
+              </div>
+              <div class="features">
+                <h4>Key Features</h4>
+                <ul class="feature-list">
+                  <li>User authentication with secure PIN validation</li>
+                  <li>Balance inquiry, cash withdrawal, and deposit functions</li>
+                  <li>Transaction history tracking</li>
+                  <li>Interactive and user-friendly interface</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+
+        <!-- Project 3 -->
+        <article class="project-card">
+          <div class="card-media">
+            <img src="./Assets/images/projects/weather.png" alt="TiffinBites Website" class="card-image">
+            <div class="card-overlay">
+              <div class="project-type">Weather Application</div>
+            </div>
+          </div>
+          <div class="card-main-content">
+            <div class="card-body">
+              <h3 class="project-title">Weather Application</h3>
+              <p class="project-description">
+             Weather Application – A Web/Mobile-based Utility Project in the Real-Time Data & API Integration domain.
+              </p>
+            </div>
+            <div class="card-footer">
+              <button class="know-more-btn">Know More <i class="fas fa-chevron-down"></i></button>
+              <div class="action-buttons">
+                <a href="https://github.com/Teja1439/Weather-application-" class="github-link" target="_blank">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="./Assets/images/vedios/weather.mp4" class="demo-link" data-video="./Assets/images/vedios/weather.mp4">
+                  <i class="fas fa-play"></i> Demo
+                </a>
+              </div>
+            </div>
+          </div>
+          <!-- Hidden details panel -->
+          <div class="card-details">
+            <div class="project-details">
+              <div class="technologies">
+                <h4 class="tech">Technologies</h4>
+                <ul class="tech-list">
+                  <li> Python </li>
+                  <li>Flask</li>
+                  <li>API Integration (OpenWeatherMap)</li>
+                 
+                </ul>
+              </div>
+              <div class="features">
+                <h4>Key Features</h4>
+                <ul class="feature-list">
+                  <li>Real-time weather updates using API</li>
+                  <li>Search by city, state, or country</li>
+                  <li>Displays temperature, humidity, and conditions</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>My Certifications</h2>
+        <img src="./Assets/images/icons/wheel.png" alt="Certification Icon" class="section-icon">
+      </div>
+      
+      <div id="cards-container">
+        <!-- Certificate 1 -->
+        <div class="card-wrapper">
+          <div class="flip-container">
+            <div class="flip-card">
+              <div class="front card">
+                <div class="card-top gradient-blue"></div>
+                <div class="icon">
+                  <img src="./Assets/images/certificates/Edubridge.png" alt="Java Full Stack Development">
+                </div>
+                <div class="card-content">
+                  <h4 class="card-title">Java Full Stack Development</h4>
+                </div>
+              </div>
+              <div class="back">
+                <p>Completed EduBridge Java Full Stack Development training. Learned Java, Spring Boot, MySQL, HTML, CSS, JavaScript, REST APIs.</p>
+                <a href="./Assets/images/certificates/Edubridge.png" class="overlay-btn">View Certificate</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate 2 -->
+        <div class="card-wrapper">
+          <div class="flip-container">
+            <div class="flip-card">
+              <div class="front card">
+                <div class="card-top gradient-green"></div>
+                <div class="icon">
+                  <img src="./Assets/images/certificates/IOT.jpg" alt="Internet Of Things">
+                </div>
+                <div class="card-content">
+                  <h4 class="card-title">Internet Of Things </h4>
+                </div>
+              </div>
+              <div class="back">
+                <p>Completed Certificate Course in IoT & Robotics (Aurora’s PG College in collaboration with Sansah Innovations Pvt. Ltd.), gained hands-on experience in IoT systems and robotics applications.</p>
+                <a href="./Assets/images/certificates/IOT.jpg" class="overlay-btn">View Certificate</a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Certificate 3 -->
+        <div class="card-wrapper">
+          <div class="flip-container">
+            <div class="flip-card">
+              <div class="front card">
+                <div class="card-top gradient-red"></div>
+                <div class="icon">
+                  <img src="./Assets/images/certificates/Accenture.png" alt="Accenture Certificate">
+                </div>
+                <div class="card-content">
+                  <h4 class="card-title">Data Analytics Certificate</h4>
+                </div>
+              </div>
+              <div class="back">
+                <p>Completed Accenture Data Analytics and Visualization Job Simulation on Forage. Gained experience in data cleaning, modeling, visualization, storytelling, and presenting insights to clients.</p>
+                <a href="./Assets/images/certificates/Accenture.png" class="overlay-btn">View Certificate</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Internships Section -->
+  <section id="internships" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Internship Experiences</h2>
+        <img src="./Assets/images/icons/wheel.png" alt="Internship Icon" class="section-icon">
+      </div>
+
+      <div class="tab-menu">
+        <button class="tab-button active" onclick="showInternship('IntelliCloud Apps', this)">IntelliCloud Apps</button>
+      </div>
+
+      <div class="internship-grid">
+        <!-- Wexdi Internship -->
+        <div class="internship-content active" id="IntelliCloud Apps">
+          <div class="internship-details">
+            <h3> Java Full Stack Developer Intern @ IntelliCloud Apps Software Services</h3>
+            <p>September 2024 – December 2024</p>
+            <ul>
+              <li>User registration and login authentication</li>
+              <li>Secure voting process with one-vote-per-user restriction</li>
+              <li>Real-time vote counting and result display</li>
+              <li>Admin panel for managing surveys and participants</li>
+              <li>Responsive and user-friendly interface</li>
+            </ul>
+          </div>
+          <div class="internship-certificate">
+            <img src="./Assets/images/internship/IntelliCloud.jpg" alt="IntelliCloud Internship Certificate" class="certificate-image">
+            <p class="certificate-caption">Java Full Stack Development Internship Certificate</p>
+          </div>
+        </div>
+        <!-- MachIt Internship -->
+        <!-- <div class="internship-content" id="machit">
+          <div class="internship-details">
+            <h3>Machine Learning Intern @ MachIt</h3>
+            <p>April-2024</p>
+          <ul>
+  <li>Built an AI-driven chatbot for an e-commerce platform to handle product inquiries, order tracking, and customer support</li>
+  <li>Applied NLP techniques using TensorFlow and scikit-learn for intent detection and dynamic response generation</li>
+  <li>Optimized model accuracy through hyperparameter tuning and training data enhancement</li>
+  <li>Deployed the chatbot within a Streamlit web application for an interactive and user-friendly interface</li>
+  <li>Collaborated with frontend and backend teams to deliver a seamless end-to-end solution</li>
+  <li>Documented technical workflows and presented chatbot performance metrics to stakeholders</li>
+</ul>
+
+          </div>
+          <div class="internship-certificate">
+            <img src="./Assets/images/internship/Machit_Internship.jpg" alt="MachIt Internship Certificate" class="certificate-image">
+            <p class="certificate-caption">Machine Learning Internship Certificate</p>
+          </div>
+        </div>
+      </div>
+    </div> -->
+
+  </section>
+  <!-- Improved Contact Section with Web3Forms -->
+  <section id="contact" class="contact-section">
+    <div class="contact-container">
+      <div class="contact-header">
+        <h2>Get In Touch</h2>
+        <p>Have a project in mind or want to discuss potential opportunities? Feel free to reach out!</p>
+      </div>
+
+      <div class="contact-content">
+        <div class="contact-info">
+          <h3>Contact Info</h3>
+          <ul>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <a href="mailto:aishettisaiteja@gmail.com">aishettisaiteja@gmail.com</a>
+            </li>
+            <li>
+              <i class="fas fa-phone-alt"></i>
+              <a href="tel:+9948475701">+91 9948475701</a>
+            </li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Hyderabad, India</span>
+            </li>
+          </ul>
+
+          <h3>Follow Me</h3>
+          <div class="social-links">
+            <a href="https://www.linkedin.com/in/aishetti-sai-teja-10b115263/" target="_blank" rel="noopener" class="social-icon" style="display: inline-flex; margin-right: 0px;">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+            <a href="https://github.com/Teja1439" target="_blank" rel="noopener" class="social-icon" style="display: inline-flex; margin-right: 0px;">
+              <i class="fab fa-github"></i>
+            </a>
+            <a href="https://www.instagram.com/saiteja1439?igsh=bDQ3YXZrczdmZ3Zh&utm_source=qr" target="_blank" rel="noopener" class="social-icon" style="display: inline-flex;">
+              <i class="fab fa-instagram"></i>
+            </a>
+   <span style="display:block; margin-top:10px; color:#4b006e; font-size:0.95em;">
+  Got a project in mind or an opportunity to share? I'd love to hear from you!<br>
+  Let’s collaborate and turn ideas into impactful solutions.
+</span>
+          </div>
+        </div>
+
+        <div class="contact-form">
+          <h3>Send a Message</h3>
+          <div id="formStatus" class="form-status"></div>
+          <form id="contactForm" action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="7f6a71fa-c1ba-4e4a-8548-c693044acca1">
+            <input type="hidden" name="redirect" value="https://web3forms.com/success">
+            <input type="hidden" name="subject" value="New Contact Form Submission">
+            
+            <div class="form-group">
+              <label for="name">Your Name</label>
+              <input type="text" id="name" name="name" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="email">Your Email</label>
+              <input type="email" id="email" name="email" class="form-control" required>
+            </div>
+            <div class="form-group">
+              <label for="message">Your Message</label>
+              <textarea id="message" name="message" class="form-control" required></textarea>
+            </div>
+            <div class="form-group" style="display: none;">
+              <label for="honeypot">Don't fill this out if you're human</label>
+              <input type="text" id="honeypot" name="honeypot">
+            </div>
+            <button type="submit" class="submit-btn">
+              <i class="fas fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>© 2025 Aishetti Sai Teja | Turning Ideas into Reality through Technology</p>
+  </footer>
+  
+  <!-- Video Modal -->
+  <div class="video-modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <video class="modal-video" controls>
+        Your browser does not support the video tag.
+      </video>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
